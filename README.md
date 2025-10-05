@@ -1,4 +1,4 @@
-# MENTOR: Mixed-policy Expert Navigation for Token-level Optimization of Reasoning
+# Selective Expert Guidance For Effective and Diverse Exploration in Reinforcement Learning of LLMs
 ![MENTOR](./assets/mentor.png)
 ## Introduction
 This repository provides the official implementation of *"Selective Expert Guidance for Effective and Diverse Exploration in Reinforcement Learning of LLMs"* 
