@@ -1,11 +1,20 @@
-# Selective Expert Guidance For Effective and Diverse Exploration in Reinforcement Learning of LLMs
-![MENTOR](./assets/mentor.png)
-## Introduction
+<h1 align="center">Selective Expert Guidance For Effective and Diverse Exploration in Reinforcement Learning of LLMs</h1>
+
+<div align="center"> 
+
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv)](paper/MENTOR.pdf)
+[![HuggingFace](https://img.shields.io/badge/Model-HuggingFace-ffd21e.svg?logo=huggingface)]() 
+
+</div>
+
+
+# Introduction
 This repository provides the official implementation of *"Selective Expert Guidance for Effective and Diverse Exploration in Reinforcement Learning of LLMs"* 
 
 MENTOR is a framework that enables LLMs to achieve effective and diverse exploration in reinforcement learning by providing expert guidance only at critical decision points, rather than imitating entire expert trajectories.
+![MENTOR](./assets/mentor.png)
 
-### Key Highlights
+## Key Highlights
 - **Selective Expert Guidance:** Injects expert signals only at critical decision points, avoiding full-trajectory imitation.  
 - **Effective & Diverse Exploration:** Balances expert guidance with autonomous exploration, preventing entropy collapse.  
 - **Absorb Essence, Remove Redundancy:** Captures essential expert strategies while discarding unnecessary patterns.  
@@ -13,8 +22,8 @@ MENTOR is a framework that enables LLMs to achieve effective and diverse explora
 
 
 
-## 🚀 Quick Start
-### Installation
+# 🚀 Quick Start
+## Installation
 You can install MENTOR dependencies by running the following commands:
 
 ```bash
@@ -23,7 +32,7 @@ conda activate mentor
 pip install -r requirements.txt
 ```
 
-### Start Training
+## Start Training
 Before starting training, we strongly recommend using SwanLab to monitor and manage experiments. You can log in with the following command:
 ```bash
   swanlab login
@@ -35,7 +44,7 @@ We provide an example script to train MENTOR on our provided training set. You c
 
 
 
-## 📈 Training Dynamics
+# 📈 Training Dynamics
 ![Training Dynamics](./assets/training_dynamics.png)
 
 MENTOR exhibits clear differences from standard on-policy RL:  
@@ -45,6 +54,9 @@ MENTOR exhibits clear differences from standard on-policy RL:
 
 Overall, MENTOR achieves better performace, maintains effect and diverse exploration, and converges to more efficient reasoning.
 
-## 📃 Evaluation
+# 📃 Evaluation
 ![Main Results](./assets/main_results.png)
 MENTOR vs. other baselines. Compared to the On-policy RL, MENTOR achieves an average performance improvement of 3.2%, 4.3% and 3.9% on the three models, respectively. 
+
+# Models
+We will release our models soon [🤗HuggingFace](https://huggingface.co/).
