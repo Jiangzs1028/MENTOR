@@ -2,7 +2,7 @@
 
 <div align="center"> 
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv)](paper/MENTOR.pdf)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv)](https://arxiv.org/abs/2510.04140)
 [![HuggingFace](https://img.shields.io/badge/Model-HuggingFace-ffd21e.svg?logo=huggingface)]() 
 
 </div>
