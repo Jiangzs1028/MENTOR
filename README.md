@@ -30,6 +30,7 @@ You can install MENTOR dependencies by running the following commands:
 conda create -n mentor python=3.11
 conda activate mentor
 pip install -r requirements.txt
+pip install -e .
 ```
 
 ## Start Training
